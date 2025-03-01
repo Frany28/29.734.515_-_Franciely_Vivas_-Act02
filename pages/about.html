@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>About site</title>
+  </head>
+  <body class="bg-[#FFF3B0] font-mono">
+    <nav class="border-gray-200 bg-[#400406]">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="../src/img/6969434_preview.png"
+            class="h-15"
+            alt="Hogwarts Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+            >El Quisquilloso</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 bg-[#400406] justify-center text-sm text-gray-500 rounded-lg md:hidden hover:text-[#E09F3E] focus:outline-none focus:ring-2 focus:ring-[#E09F3E]"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col md:flex-row p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-transparent"
+          >
+            <li>
+              <a
+                href="../index.html"
+                class="block py-2 px-3 text-white rounded-sm hover:text-[#E09F3E] active:text-[#E09F3E]"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./about.html"
+                class="block py-2 px-3 text-[#E09F3E] rounded-sm hover:text-[#E09F3E] active:text-[#E09F3E]"
+                >Sobre el sitio</a
+              >
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                class="block py-2 px-3 text-white rounded-sm hover:text-[#E09F3E] active:text-[#E09F3E]"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-[#FFF3B0] py-16 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl font-bold text-[#9E2A2B] mb-4">Sobre el Sitio</h1>
+        <p class="text-lg mb-6">
+          Este sitio web ha sido desarrollado con fines educativos como parte de
+          una actividad académica. Su temática está inspirada en el universo de
+          <span class="text-[#9E2A2B] font-semibold">Harry Potter</span>, una
+          saga literaria y cinematográfica que ha marcado a generaciones.
+        </p>
+        <p class="text-lg mb-6">
+          La historia sigue a
+          <span class="text-[#9E2A2B] font-semibold">Harry Potter</span>, un
+          joven mago que, junto con sus amigos
+          <span class="text-[#9E2A2B] font-semibold">Hermione Granger</span> y
+          <span class="text-[#9E2A2B] font-semibold">Ron Weasley</span>, vive
+          aventuras en el Colegio Hogwarts de Magia y Hechicería. Enfrentan
+          desafíos mágicos, descubren secretos oscuros y luchan contra el
+          malvado
+          <span class="text-[#9E2A2B] font-semibold">Lord Voldemort</span>.
+        </p>
+        <p class="text-lg mb-6">
+          El sitio web ofrece una experiencia inmersiva con elementos visuales
+          representativos, como los colores y símbolos de las casas de
+          <span class="text-[#9E2A2B] font-semibold">Hogwarts</span>, imágenes
+          de personajes icónicos y referencias al universo mágico. Su diseño
+          interactivo facilita la exploración y el aprendizaje, permitiendo a
+          los usuarios conocer más sobre la saga.
+        </p>
+        <p class="text-lg font-semibold text-[#9E2A2B]">
+          Más que una simple página, este proyecto busca rendir homenaje a
+          <span class="text-[#9E2A2B]">Harry Potter</span> y ofrecer un espacio
+          educativo donde los fans y nuevos visitantes puedan descubrir este
+          mundo mágico de manera atractiva y didáctica.
+        </p>
+      </div>
+    </section>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
